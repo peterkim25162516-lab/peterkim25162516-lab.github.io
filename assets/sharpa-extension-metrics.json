@@ -1,0 +1,82 @@
+{
+  "schema": "website-sharpa-extension-v1",
+  "updated": "2026-10-01",
+  "scope": "Native SDK stack regression: OVPhysX 0.4.13 and 0.5.10; full hand profiles retain the calibrated 0.4.13 adapter. Simulation only.",
+  "fresh_process_workers": 280,
+  "exact_sample_file_repeat_pairs": 140,
+  "profiles": [
+    {
+      "profile": "baseline",
+      "event_midpoint_max_abs_s": 0.05600000000000005,
+      "joint_effect_max_abs_rad": 0.03430622877733036,
+      "blocked_effect_max_abs_m": 0.002580752207712478,
+      "orientation_effect_max_abs_rad": 0.050860444620017334,
+      "threshold_status": "baseline criteria unchanged",
+      "within_backend_dt_halving": {
+        "mujoco": {
+          "blocked_effect_max_abs_m": 7.585190898995453e-06,
+          "contact_gap_max_abs_m": 7.91848633205361e-06,
+          "contact_joint_state_max_abs_rad": 0.0001093797992561818,
+          "contact_orientation_max_abs_rad": 0.00014622949646620148,
+          "joint_effect_max_abs_rad": 9.117139323755463e-05
+        },
+        "ovphysx": {
+          "blocked_effect_max_abs_m": 9.046857212702264e-06,
+          "contact_gap_max_abs_m": 1.1175583435552028e-05,
+          "contact_joint_state_max_abs_rad": 0.0012428760528564453,
+          "contact_orientation_max_abs_rad": 0.0005644001883220167,
+          "joint_effect_max_abs_rad": 0.0012479424476623535
+        }
+      }
+    },
+    {
+      "profile": "slower",
+      "event_midpoint_max_abs_s": 0.10599999999999987,
+      "joint_effect_max_abs_rad": 0.03384184113808453,
+      "blocked_effect_max_abs_m": 0.002350117145446917,
+      "orientation_effect_max_abs_rad": 0.04596257638648212,
+      "threshold_status": "descriptive; no new pass gate",
+      "within_backend_dt_halving": {
+        "mujoco": {
+          "blocked_effect_max_abs_m": 3.7657748294395166e-06,
+          "contact_gap_max_abs_m": 3.2038851089932763e-06,
+          "contact_joint_state_max_abs_rad": 5.120679078818302e-05,
+          "contact_orientation_max_abs_rad": 6.293562234364422e-05,
+          "joint_effect_max_abs_rad": 4.665641220735761e-05
+        },
+        "ovphysx": {
+          "blocked_effect_max_abs_m": 5.661852968796843e-06,
+          "contact_gap_max_abs_m": 6.137520737775626e-06,
+          "contact_joint_state_max_abs_rad": 0.0013463497161865234,
+          "contact_orientation_max_abs_rad": 0.0005978314404788003,
+          "joint_effect_max_abs_rad": 0.0013580918312072754
+        }
+      }
+    },
+    {
+      "profile": "larger_probe",
+      "event_midpoint_max_abs_s": 0.04999999999999982,
+      "joint_effect_max_abs_rad": 0.0348169836474892,
+      "blocked_effect_max_abs_m": 0.00262113379239981,
+      "orientation_effect_max_abs_rad": 0.05177380663358802,
+      "threshold_status": "descriptive; no new pass gate",
+      "within_backend_dt_halving": {
+        "mujoco": {
+          "blocked_effect_max_abs_m": 3.0634924460731794e-05,
+          "contact_gap_max_abs_m": 3.28161774586222e-05,
+          "contact_joint_state_max_abs_rad": 0.0002707267284319803,
+          "contact_orientation_max_abs_rad": 0.0006097472327111515,
+          "joint_effect_max_abs_rad": 0.0002520129838116114
+        },
+        "ovphysx": {
+          "blocked_effect_max_abs_m": 1.1074298841229346e-05,
+          "contact_gap_max_abs_m": 1.3146432556704335e-05,
+          "contact_joint_state_max_abs_rad": 0.001532137393951416,
+          "contact_orientation_max_abs_rad": 0.0006650857692841545,
+          "joint_effect_max_abs_rad": 0.0015372037887573242
+        }
+      }
+    }
+  ],
+  "original_gate_results_changed": false
+}

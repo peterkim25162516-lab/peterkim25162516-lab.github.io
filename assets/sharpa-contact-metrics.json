@@ -1,0 +1,39 @@
+{
+  "experiment": "contact-c0-async-v1",
+  "date": "2026-09-30",
+  "scope": "Fixed-version synthetic sphere-box contact; aggregate maxima across matched cases.",
+  "metrics": [
+    {
+      "metric": "event_midpoint_max_abs_s",
+      "label": "Contact-event timing",
+      "unit": "ms",
+      "observed": 56.00000000000005,
+      "threshold": 10,
+      "passed": false
+    },
+    {
+      "metric": "joint_effect_max_abs_rad",
+      "label": "Joint contact effect",
+      "unit": "rad",
+      "observed": 0.03430622877733036,
+      "threshold": 0.02,
+      "passed": false
+    },
+    {
+      "metric": "blocked_travel_max_abs_m",
+      "label": "Contact-blocked travel",
+      "unit": "mm",
+      "observed": 2.580752207712478,
+      "threshold": 2,
+      "passed": false
+    },
+    {
+      "metric": "orientation_effect_max_abs_rad",
+      "label": "Orientation contact effect",
+      "unit": "rad",
+      "observed": 0.050860444620017334,
+      "threshold": 0.05,
+      "passed": false
+    }
+  ]
+}
