@@ -12,3 +12,9 @@ Bilingual personal portfolio hosted on GitHub Pages.
 This is a static website. Edit index.html, projects/, or assets/, commit, and push to main. GitHub Pages publishes from the repository root automatically. Keep .nojekyll to preserve the static files as-is.
 
 The original Sites publication remains available. Only public website assets are included here.
+
+## October 10, 2026
+
+Reconciled with the owner-approved Chinese FULL V22 and English FULL V5 resumes: current DexMate benchmark-design work, PAIR full-parameter/LoRA SFT and baseline selection, and Sharpa motion/contact/retention diagnostics. Both downloadable PDFs are exact copies of the originals. DexArena is submitted to ICLR 2027; Sharpa is submitted to the CoRL 2026 Everything Beneath the Policy Workshop. Neither is presented as accepted.
+
+Sharpa's current figures are copied unchanged from the final R2 research report: grasp_retention_limits.png, contact_geometry_force.png, residual_interventions.png and residual_dt_refinement.png. The older assets remain available at their existing paths; current results replace the historical summary. Ball retention is distinct from acquisition, trajectory convergence and general simulator parity. DexMate work is ongoing design, with sim-to-real transfer a team research goal.
