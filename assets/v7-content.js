@@ -2,7 +2,7 @@
 const portfolioV7 = {
   "en": {
     "updated": "Updated · October 21, 2026",
-    "chineseCV": "Chinese résumé · Oct 10, 2026",
+    "chineseCV": "Chinese job résumé · GPA corrected Oct 21",
     "englishCV": "PhD CV · Oct 21, 2026",
     "intro": "MSc student in Computer Control & Automation at NTU Singapore and Robot Learning Intern at DexMate. My research interests include VLA models, world models and generalization across tasks and environments.",
     "aboutText2": "At DexMate, I investigate 3D Gaussian Splatting digital twins for sim-to-real robot learning. I developed a composable task-evaluation prototype that combines geometric and contact predicates with temporal stage graphs, then validated the evaluation loop using recorded simulation trajectories and smoke tests.",
@@ -178,7 +178,7 @@ const portfolioV7 = {
   },
   "zh": {
     "updated": "更新于 2026 年 10 月 21 日",
-    "chineseCV": "中文简历 · 2026 年 10 月 10 日",
+    "chineseCV": "中文求职版 · GPA已校正（10月21日）",
     "englishCV": "PhD CV · 2026 年 10 月 21 日",
     "intro": "南洋理工大学控制与自动化硕士在读，目前在 DexMate 担任 Robot Learning Intern。研究兴趣包括 VLA、World Model，以及跨任务与环境的泛化。",
     "aboutText2": "在 DexMate，我研究面向 sim-to-real 机器人学习的 3D Gaussian Splatting 数字孪生，并已开发可组合任务评估原型：通过几何与接触判定模块、时序阶段图跟踪操作进展与诊断失败，使用录制仿真轨迹及端到端试跑验证评估流程。",

@@ -22,3 +22,5 @@ Sharpa's current figures are copied unchanged from the final R2 research report:
 ## October 21, 2026
 
 Updated bilingual homepage and DexArena project narrative from PhD CV General v6: π0.5 dexterous adaptation, LoRA and masked supervision, stage-pooled learning, asynchronous action fusion and co-first ICLR 2027 under-review status. DexMate now describes the composable evaluator prototype and its verification, with 3DGS retained as an investigation direction. The linked English download is the current two-page PhD CV; original job-resume files and the DexMate-free RA CV remain preserved.
+
+The website copies of the older Chinese/English job resumes have GPA corrected to 3.0; the source originals remain unchanged. Chinese download is labeled as the job version with a GPA-only correction, rather than a fully rewritten PhD CV.
