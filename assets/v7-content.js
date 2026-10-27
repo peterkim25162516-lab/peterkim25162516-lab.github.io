@@ -33,7 +33,7 @@ const portfolioV7 = {
       [
         "May–Oct 2026",
         "PAIR",
-        "Research Intern · π0.5 dexterous-hand adaptation, LoRA fine-tuning, long-task training and asynchronous execution. Co-first author, ICLR 2027 submission."
+        "Research Intern · π0.5 dexterous-hand adaptation, LoRA fine-tuning, long-task training and asynchronous execution. Co-author, ICLR 2027 submission."
       ],
       [
         "2026–2027",
@@ -54,7 +54,7 @@ const portfolioV7 = {
     "projects": {
       "dexarena": {
         "date": "May–October 2026",
-        "paperStatus": "Co-first author · Under review at ICLR 2027",
+        "paperStatus": "Co-author · Under review at ICLR 2027",
         "tags": [
           "π0.5 adaptation",
           "LoRA / imitation learning",
@@ -81,7 +81,7 @@ const portfolioV7 = {
         ],
         "diagram": "Adapt → learn → execute",
         "outcomeText": "The work provides π0.5 dexterous-control baselines and a stage-pooled long-task training framework. The LoRA baseline performed better under the tested configurations, and asynchronous fusion improved subtask success in controlled comparisons. These subtask findings do not establish successful end-to-end completion of every long task.",
-        "scope": "Co-first author of the associated manuscript, submitted to ICLR 2027 and currently under review. DexArena and its figures are team work. Stage instructions are supplied by the environment. Figure counts may reflect an earlier benchmark version; videos demonstrate interfaces rather than proving long-task success.",
+        "scope": "Co-author of the associated manuscript, submitted to ICLR 2027 and currently under review; responsible for its π0.5 baseline. DexArena and its figures are team work. Stage instructions are supplied by the environment. Figure counts may reflect an earlier benchmark version; videos demonstrate interfaces rather than proving long-task success.",
         "subtitle": "π0.5 adaptation for dexterous manipulation",
         "overview": "DexArena is a team benchmark for multi-embodiment, multi-stage dexterous manipulation. My research focused on adapting pretrained π0.5 to arm–hand and bimanual action spaces, learning from heterogeneous stage demonstrations, and maintaining continuous execution under inference latency.",
         "challenge": "A pretrained VLA must represent a larger action space, learn consistent physical joint targets from heterogeneous demonstrations, and react to fresh observations while inference and control run asynchronously.",
@@ -174,7 +174,7 @@ const portfolioV7 = {
       "Vision-language-action models",
       "Generalization"
     ],
-    "aboutText": "At PAIR, I adapted pretrained π0.5 to dexterous arm–hand and bimanual control, developed LoRA fine-tuning and stage-pooled training, and implemented latency-aware asynchronous action fusion. I am a co-first author of the associated DexArena manuscript, currently under review at ICLR 2027."
+    "aboutText": "At PAIR, I adapted pretrained π0.5 to dexterous arm–hand and bimanual control, developed LoRA fine-tuning and stage-pooled training, and implemented latency-aware asynchronous action fusion. I am a co-author of the associated DexArena manuscript, currently under review at ICLR 2027, and was responsible for its π0.5 baseline."
   },
   "zh": {
     "updated": "更新于 2026 年 10 月 21 日",
@@ -209,7 +209,7 @@ const portfolioV7 = {
       [
         "2026.05–10",
         "上海物理智能与机器人研究院（PAIR）",
-        "Research Intern · π0.5 灵巧手适配、LoRA 微调、长任务训练与异步执行；ICLR 2027 在投稿件共同一作。"
+        "Research Intern · π0.5 灵巧手适配、LoRA 微调、长任务训练与异步执行；ICLR 2027 在投稿件作者之一。"
       ],
       [
         "2026–2027",
@@ -230,7 +230,7 @@ const portfolioV7 = {
     "projects": {
       "dexarena": {
         "date": "2026 年 5–10 月",
-        "paperStatus": "共同第一作者 · ICLR 2027 审稿中",
+        "paperStatus": "合著者 · ICLR 2027 审稿中",
         "tags": [
           "π0.5 适配",
           "LoRA／模仿学习",
@@ -257,7 +257,7 @@ const portfolioV7 = {
         ],
         "diagram": "适配 → 学习 → 执行",
         "outcomeText": "工作形成了 π0.5 灵巧控制基线及长任务分阶段混合训练框架。LoRA 在所测试配置下表现更好，异步融合在对照实验中提高了子任务成功率。这些子任务结果不代表所有长任务均已实现端到端成功。",
-        "scope": "相关稿件共同第一作者，已投 ICLR 2027、审稿中。DexArena 及论文配图属于团队成果。阶段指令由环境提供；配图统计可能对应较早版本，接口视频不作为长任务成功证明。",
+        "scope": "相关稿件作者之一（负责 π0.5 基线），已投 ICLR 2027、审稿中。DexArena 及论文配图属于团队成果。阶段指令由环境提供；配图统计可能对应较早版本，接口视频不作为长任务成功证明。",
         "subtitle": "π0.5 灵巧操作适配与学习方法",
         "overview": "DexArena 是面向多种机器人形态、多阶段灵巧操作的团队基准。我的研究重点是让预训练 π0.5 适配单臂灵巧手和双臂动作空间，从异构阶段示范中学习，并在存在推理延迟时保持连续执行。",
         "challenge": "预训练 VLA 需要表示更大的动作空间，从异构示范中学习一致的物理关节目标，并在推理和控制异步运行时及时利用新观测。",
@@ -350,6 +350,6 @@ const portfolioV7 = {
       "视觉–语言–动作模型",
       "泛化能力"
     ],
-    "aboutText": "在 PAIR，我将预训练 π0.5 适配到灵巧手单臂与双臂控制，开展 LoRA 微调、分阶段数据混合训练，并实现考虑推理延迟的异步动作融合。我是相关 DexArena 稿件的共同第一作者，论文目前在 ICLR 2027 审稿中。"
+    "aboutText": "在 PAIR，我将预训练 π0.5 适配到灵巧手单臂与双臂控制，开展 LoRA 微调、分阶段数据混合训练，并实现考虑推理延迟的异步动作融合。我是相关 DexArena 稿件的作者之一，负责其中的 π0.5 基线，论文目前在 ICLR 2027 审稿中。"
   }
 };
