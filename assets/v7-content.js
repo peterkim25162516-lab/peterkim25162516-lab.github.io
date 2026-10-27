@@ -102,7 +102,7 @@ const portfolioV7 = {
       },
       "sharpa-wave": {
         "date": "August–October 2026",
-        "paperStatus": "Submitted to CoRL 2026 · Everything Beneath the Policy Workshop",
+        "paperStatus": "Independent manuscript, 2026",
         "subtitle": "Motion, contact & object-retention diagnostics",
         "summary": "Compare Sharpa Wave motion, contact readouts and free-ball retention in MuJoCo and kit-less OVPhysX, separating task success from trajectory agreement.",
         "homeFocus": "Cross-simulator diagnosis & free-ball retention",
@@ -165,7 +165,7 @@ const portfolioV7 = {
           ]
         ],
         "outcomeText": "Both backends retained a free ball under the registered controller and conditions, including held-out 2 mm offsets. Success did not establish matching trajectories: two normal OVPhysX holdout timestep pairs exceeded the 5 mm object-position limit. Dry-friction controls explained most tested non-contact fingertip differences, but remaining causes were not fully isolated. The historical formal Gate 0 result remains divergent.",
-        "scope": "Submitted to the CoRL 2026 Everything Beneath the Policy Workshop; this is a workshop submission, not a main-conference acceptance. Independent, simulation-only results under registered conditions. No hardware or sim-to-real validation, general grasping claim, official endorsement or general simulator parity is established."
+        "scope": "Independent manuscript, 2026. Simulation-only results under registered conditions. No hardware or sim-to-real validation, general grasping claim, official endorsement or general simulator parity is established."
       }
     },
     "lead": "Learning algorithms for dexterous robot manipulation.",
@@ -278,7 +278,7 @@ const portfolioV7 = {
       },
       "sharpa-wave": {
         "date": "2026 年 8–10 月",
-        "paperStatus": "CoRL 2026 Everything Beneath the Policy Workshop 在投",
+        "paperStatus": "独立研究手稿（2026）",
         "subtitle": "运动、接触与物体保持诊断",
         "summary": "比较 MuJoCo 与 kit-less OVPhysX 中的运动、接触读数和自由球保持，区分任务成功与轨迹一致性。",
         "homeFocus": "跨仿真诊断与自由球保持",
@@ -341,7 +341,7 @@ const portfolioV7 = {
           ]
         ],
         "outcomeText": "在注册控制与场景下，两端均保持住自由球，包含未参与搜索的 2 mm 位置偏移。任务成功不代表轨迹一致：OVPhysX 两对正常 holdout 步长对照超过 5 mm 物体位置差门槛。干摩擦对照解释了指定无接触测试中的大部分指端差异，但剩余原因尚未完全隔离。历史正式 Gate 0 仍为存在差异。",
-        "scope": "论文处于 CoRL 2026 Everything Beneath the Policy Workshop 在投状态，不代表主会论文或已录用。个人纯仿真研究，结果仅适用于注册条件；不主张实机或 Sim2Real 验证、通用抓取、官方背书或通用仿真器一致性。"
+        "scope": "独立研究手稿（2026）。个人纯仿真研究，结果仅适用于注册条件；不主张实机或 Sim2Real 验证、通用抓取、官方背书或通用仿真器一致性。"
       }
     },
     "lead": "研究面向灵巧操作的机器人学习算法。",
