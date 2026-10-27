@@ -66,12 +66,12 @@ const portfolioV7 = {
         "homeBody": "Adapted π0.5 for 29-DoF arm–hand and 58-DoF bimanual control. Developed stage-pooled training and asynchronous action fusion; comparisons supported LoRA baseline selection and improved subtask success with fusion.",
         "quickProblem": "Transfer a pretrained VLA policy to high-dimensional dexterous hands and multi-stage manipulation under inference latency.",
         "quickWork": "Action-projection adaptation, backbone/action-expert LoRA, masked flow matching, stage-pooled training and asynchronous action fusion.",
-        "quickOutcome": "A stronger LoRA baseline under the tested configurations and improved subtask success with asynchronous fusion.",
+        "quickOutcome": "A lower-cost LoRA baseline and improved subtask success with asynchronous fusion.",
         "contributions": [
           "Adapted action projections for 29-DoF arm–hand and 58-DoF bimanual control, and fine-tuned the vision-language backbone and action expert with LoRA.",
           "Developed stage-pooled training for 10 long-horizon task families / 30 subtasks, with joint-wise normalization and masked flow-matching supervision. Each long task uses one policy conditioned on environment-provided stage instructions.",
           "Implemented latency-aware asynchronous action-chunk fusion: aligned predictions to observation timestamps, discarded stale actions, and blended overlapping chunks in physical joint space.",
-          "Compared full-parameter and LoRA fine-tuning and selected the stronger LoRA baseline. Controlled comparisons showed improved subtask success with asynchronous fusion."
+          "Compared full-parameter and LoRA fine-tuning; adopted LoRA for its much lower training cost, at slightly lower success. Controlled comparisons showed improved subtask success with asynchronous fusion."
         ],
         "approachText": "Retain the pretrained π0.5 architecture while adapting the action representation and supervision to dexterous control. Pool stage demonstrations for each long task, then overlap inference with execution using timestamp alignment and action fusion. Fine-tuning comparisons are interpreted under their tested configurations, rather than attributing every difference solely to LoRA.",
         "nodes": [
@@ -80,7 +80,7 @@ const portfolioV7 = {
           "Latency-aware action fusion"
         ],
         "diagram": "Adapt → learn → execute",
-        "outcomeText": "The work provides π0.5 dexterous-control baselines and a stage-pooled long-task training framework. The LoRA baseline performed better under the tested configurations, and asynchronous fusion improved subtask success in controlled comparisons. These subtask findings do not establish successful end-to-end completion of every long task.",
+        "outcomeText": "The work provides π0.5 dexterous-control baselines and a stage-pooled long-task training framework. LoRA was adopted for its much lower training cost, at slightly lower overall success than full-parameter fine-tuning, and asynchronous fusion improved subtask success in controlled comparisons. These subtask findings do not establish successful end-to-end completion of every long task.",
         "scope": "Co-author of the associated manuscript, submitted to ICLR 2027 and currently under review; responsible for its π0.5 baseline. DexArena and its figures are team work. Stage instructions are supplied by the environment. Figure counts may reflect an earlier benchmark version; videos demonstrate interfaces rather than proving long-task success.",
         "subtitle": "π0.5 adaptation for dexterous manipulation",
         "overview": "DexArena is a team benchmark for multi-embodiment, multi-stage dexterous manipulation. My research focused on adapting pretrained π0.5 to arm–hand and bimanual action spaces, learning from heterogeneous stage demonstrations, and maintaining continuous execution under inference latency.",
@@ -242,12 +242,12 @@ const portfolioV7 = {
         "homeBody": "将 π0.5 适配至 29 自由度单臂灵巧手与 58 自由度双臂控制，开发分阶段混合训练和异步动作融合；通过比较选用 LoRA 基线，异步融合在对照实验中提高了子任务成功率。",
         "quickProblem": "将预训练 VLA 迁移到高维灵巧手和多阶段任务，并处理推理延迟下的连续执行。",
         "quickWork": "动作投影适配、骨干与动作专家 LoRA、带掩码的 flow matching、分阶段混合训练与异步融合。",
-        "quickOutcome": "选用所测试配置下表现更好的 LoRA 基线；异步融合在对照实验中提高子任务成功率。",
+        "quickOutcome": "选用训练成本更低的 LoRA 作为基线；异步融合在对照实验中提高子任务成功率。",
         "contributions": [
           "为 29 自由度单臂灵巧手和 58 自由度双臂控制适配动作投影，并对视觉语言骨干与动作专家开展 LoRA 微调。",
           "面向 10 类长任务／30 个子任务开发分阶段数据混合训练，采用逐关节归一化与带掩码的 flow-matching 监督；每个长任务使用一个由环境阶段指令条件化的策略。",
           "实现考虑延迟的异步动作块融合：按观测时间戳对齐预测，丢弃过期动作，在实际关节空间融合重叠动作块。",
-          "比较全参数与 LoRA 微调，选用所测试配置下表现更好的 LoRA 基线；对照实验显示异步融合提高了子任务成功率。"
+          "比较全参数与 LoRA 微调，因训练成本低得多而选用 LoRA 作为基线（总体成功率略低于全参数）；对照实验显示异步融合提高了子任务成功率。"
         ],
         "approachText": "保留预训练 π0.5 架构，针对灵巧控制适配动作表示与训练监督。将同一长任务的阶段示范混合训练，再通过时间戳对齐和动作融合重叠推理与执行。微调比较按实际测试配置解释，不将全部表现差异单独归因于 LoRA。",
         "nodes": [
@@ -256,7 +256,7 @@ const portfolioV7 = {
           "考虑延迟的异步融合"
         ],
         "diagram": "适配 → 学习 → 执行",
-        "outcomeText": "工作形成了 π0.5 灵巧控制基线及长任务分阶段混合训练框架。LoRA 在所测试配置下表现更好，异步融合在对照实验中提高了子任务成功率。这些子任务结果不代表所有长任务均已实现端到端成功。",
+        "outcomeText": "工作形成了 π0.5 灵巧控制基线及长任务分阶段混合训练框架。LoRA 因训练成本低得多被选为基线，总体成功率略低于全参数微调；异步融合在对照实验中提高了子任务成功率。这些子任务结果不代表所有长任务均已实现端到端成功。",
         "scope": "相关稿件作者之一（负责 π0.5 基线），已投 ICLR 2027、审稿中。DexArena 及论文配图属于团队成果。阶段指令由环境提供；配图统计可能对应较早版本，接口视频不作为长任务成功证明。",
         "subtitle": "π0.5 灵巧操作适配与学习方法",
         "overview": "DexArena 是面向多种机器人形态、多阶段灵巧操作的团队基准。我的研究重点是让预训练 π0.5 适配单臂灵巧手和双臂动作空间，从异构阶段示范中学习，并在存在推理延迟时保持连续执行。",
